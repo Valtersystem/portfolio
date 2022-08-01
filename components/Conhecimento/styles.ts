@@ -5,11 +5,12 @@ export const Container = styled.section`
 
     > section{
         margin-top: 8rem;
-        width: 100%;
+        width: 90%;
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: flex-start;
         gap: 8rem;
+        flex-wrap: wrap;
 
         @media (max-width: 1000px){
             gap: 5rem;
@@ -36,12 +37,21 @@ export const ConhecimentoContainer = styled.div`
         text-transform: uppercase;
     }
 
+    &:hover {
+        span {
+       
+        opacity: 1;
+        transition: 0.3s;
+        
+    }
+    }
+
 
     svg{
         width: 6.5rem;
         height: 6.5rem;
         color: ${({ theme }) => theme.textHighlight};
-        transition: 0.3s;
+        transition: 0.5s;
     }
 
     &:hover {
@@ -50,6 +60,17 @@ export const ConhecimentoContainer = styled.div`
             transform: scale(0.95);
         }
     }
+
+    span {
+        text-transform: uppercase;
+        color: ${({ theme }) => theme.secondary};
+        font-weight: 600;
+        font-size: 1.3rem;
+        transition: all 0.5s;
+        opacity: 0;
+    }
+
+   
 
     @media(max-width: 1000px){
         

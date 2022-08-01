@@ -1,7 +1,8 @@
 import {ItemContainer} from './styles';
+import { ReactNode } from 'react';
 
 interface BiagrafiaProps{
-  description: string;
+  description?: string | ReactNode;
 }
 
 export default function ExperienciaITEM({description}: BiagrafiaProps) {

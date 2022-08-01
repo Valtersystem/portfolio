@@ -74,7 +74,7 @@ export const ItemContainer = styled.div`
 
     > div {
       height: auto;
-      padding: 2rem;
+      padding: 0rem;
       max-width: 100%;
 
       p {

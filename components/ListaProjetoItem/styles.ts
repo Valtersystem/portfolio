@@ -27,26 +27,32 @@ export const Container = styled.div<ContainerProps>`
 
     border-radius: 1rem;
     
-    box-shadow: ${({ theme }) => theme.primary} 1.95px 1.95px 2.6px;
+    box-shadow: ${({ theme }) => theme.secondary} -0.05px 0.95px 2.6px;
     
     &:hover {
-      border-color: ${({ theme }) => theme.primary};
+      box-shadow: ${({ theme }) => theme.primary} 1.95px 1.95px 2.6px;
+      h1 {
+        color: ${({ theme }) => theme.primary};
+        font-size: 1.5rem;
+      }
       > div.overlay {
         opacity: 0.5;
       }
+    
     }
 
     > section {
       z-index: 2;
       h1 {
-        color: ${({ theme }) => theme.primary};
+        color: ${({ theme }) => theme.secondary};
         font-size: 1.5rem;
       }
       h2 {
-        color: ${({ theme }) => theme.secondary};
+        color: ${({ theme }) => theme.primary};
         font-weight: 300;
         font-size: 1rem;
-      }
+      }    
+
     }
     
     > div.overlay {
@@ -55,7 +61,7 @@ export const Container = styled.div<ContainerProps>`
       bottom: 0;
       width: 100%;
       height: 100%;
-      /* background: ${({ theme }) => theme.gradient}; */
+      background: black;
       opacity: 0.7;
       transition: 0.5s;
     }

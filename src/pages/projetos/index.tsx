@@ -26,7 +26,7 @@ export default function Projetos({ projetos }: ProjetoProps) {
         <title>Projetos | Meu portfólio</title>
         <meta
           name="description"
-          content="Sou um desenvolvedor Front-end e aqui apresento alguns projetos desenvolvidos por mim!"
+          content="Lista de todos os meus projetos."
         />
         <meta property="og:image" content="/ogimage.png" />
         <meta property="og:image:secure_url" content="/ogimage.png" />
@@ -34,7 +34,7 @@ export default function Projetos({ projetos }: ProjetoProps) {
         <meta name="twitter:image:src" content="/ogimage.png" />
         <meta
           property="og:description"
-          content="Sou um desenvolvedor Front-end e aqui apresento alguns projetos desenvolvidos por mim!"
+          content="Lista de todos os meus projetos."
         />
       </Head>
 

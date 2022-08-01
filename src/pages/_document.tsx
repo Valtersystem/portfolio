@@ -41,6 +41,13 @@ export default class MyDocument extends Document {
     return (
       <Html lang="pt-br">
         <Head>
+
+        <link rel="icon" type="image/png" sizes="16x16"  href="/favicon-16x16.png" />
+        <meta name="msapplication-TileColor" content="#ffffff" />
+        <meta name="theme-color" content="#ffffff" />
+
+
+
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" />
           <link

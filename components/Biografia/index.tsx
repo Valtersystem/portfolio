@@ -11,7 +11,10 @@ export function Biografia() {
 
      <section>
         <BiografiaItem
-        description='Fascinado por tecnologia estou terminando minha graduação em análise e desenvolvimento de sistemas. Tenho experiência em HTML, CSS, JavaScript, com foco em desenvolvimento Front-end. Logo após um longo período trabalhando como fotógrafo científico, estou atualmente trabalhando como Desenvolvedor Jr., onde tenho trabalhado duro para aprimorar minhas habilidades com JS, VueJS e Word Press. Estou constantemente aprendendo e ansioso para me tornar um excelente Full Stack Developer, há muito o que aprender e minha jornada está apenas começando!
+        description='Prazer em te conhecer, meu nome é Valter Santos.
+        ⁠Antes de me apaixonar por programação, trabalhei em um hospital como fotografia científica e sempre tive vontade de aprender a criar web-sites, com esta vontade, comecei a pesquisar e me aprofundar no mundo da tecnologia. E então decidi realizar minha graduação em análise desenvolvimento de sistemas. No ano de 2022 tive a minha primeira oportunidade de trabalhar como desenvolvedor web Júnior por 6 meses, onde consegui experiência com algumas ferramentas: Vuejs, Git, Bootstrap e JavaScript ...
+        ⁠
+        ⁠Falando um pouco mais sobre mim, gosto de jogar futebol, cozinhar e comer amendoim, e gosto de me divertir com amigos e familiares e às vezes também assisto a algumas séries de zumbi.!
         '
         />
      </section>

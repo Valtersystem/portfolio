@@ -36,7 +36,7 @@ export default function Form() {
 
       toast('Mensagem enviada com sucesso!', {
         style: {
-          background: theme.secondary,
+          background: theme.primary,
           color: '#fff'
         }
       });

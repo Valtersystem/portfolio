@@ -18,13 +18,15 @@ export const Container = styled.div<ContainerProps>`
   section {
     z-index: 2;
     h1 {
-      color: ${({ theme }) => theme.primary};
+      color: ${({ theme }) => theme.secondary};
       font-size: 3rem;
+      text-shadow: -4px 5px 22px #11172b;
     }
     h2 {
-      color: ${({ theme }) => theme.secondary};
+      color: ${({ theme }) => theme.primary};
       font-weight: 300;
       font-size: 2rem;
+      text-shadow: -4px 5px 22px #11172b;
     }
   }
 
@@ -34,7 +36,7 @@ export const Container = styled.div<ContainerProps>`
     bottom: 0;
     width: 100%;
     height: 100%;
-    /* background: ${({ theme }) => theme.gradient}; */
+     background: black; 
     opacity: 0.7;
     transition: 0.5s;
   }

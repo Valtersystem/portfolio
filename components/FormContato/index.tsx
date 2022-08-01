@@ -19,7 +19,7 @@ export function FormContato() {
       <>
       Preenche o formulário que
       <br />
-      irei Retornar em breve
+      irei retornar em breve
       </>
     } />
 

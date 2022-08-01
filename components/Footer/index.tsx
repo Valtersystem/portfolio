@@ -26,9 +26,9 @@ function Footer(){
      <div className="container">
       <button type='button' onClick={hendleScrollTop}>Voltar ao topo</button>
       <section>
-        <AiOutlineTwitter onClick={() => handleRedirect("https://twitter.com")}/>
-        <AiOutlineGithub onClick={() => handleRedirect("https://github.com")}/>
-        <AiFillLinkedin onClick={() => handleRedirect("https://linkdin.com")}/>
+        {/* <AiOutlineTwitter onClick={() => handleRedirect("https://twitter.com")}/> */}
+        <AiOutlineGithub onClick={() => handleRedirect("https://github.com/Valtersystem")}/>
+        <AiFillLinkedin onClick={() => handleRedirect("https://www.linkedin.com/in/valterantonio/")}/>
       </section>
      </div>
     </Container>

@@ -14,6 +14,7 @@ import FormContato from '../../components/FormContato';
 import Footer from '../../components/Footer';
 import { getPrismicClient } from '../services/prismic';
 import 'aos/dist/aos.css';
+import Biografia from '../../components/Biografia';
 
 interface IProjeto {
   slug: string;
@@ -55,6 +56,7 @@ export default function Home({ projetos }: HomeProps) {
 
       <main className="container">
         <HomeHero />
+        <Biografia />
         <Experiencias />
         <Projetos projetos={projetos} />
         <Conhecimentos />

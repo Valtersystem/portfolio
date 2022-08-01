@@ -7,7 +7,9 @@ export default createGlobalStyle`
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'Poppins', sans-serif;
+
 
   ::-webkit-scrollbar {
     width: 8px;

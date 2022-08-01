@@ -1,9 +1,11 @@
+import { ReactNode } from 'react';
 import {ItemContainer} from './styles';
+import * as ReactDOM from 'react-dom';
 
 interface ExperienciaProps{
   year: string;
   title: string;
-  description: string;
+  description?: string | ReactNode;
 }
 
 export default function ExperienciaITEM({year, title, description}: ExperienciaProps) {

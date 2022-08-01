@@ -47,10 +47,10 @@ export const FormContainer = styled.form`
 export const Input = styled.input`
   height: 3rem;
   width: 100%;
-  background: ${({ theme }) => theme.inputBackground};
-  border: 1px solid ${({ theme }) => theme.border};
+  background: transparent;
+  border: 1px solid ${({ theme }) => theme.secondary};
   padding: 1.7rem 1.5rem;
-  color: ${({ theme }) => theme.primary};
+  color: ${({ theme }) => theme.secondary};
   border-radius: 0.5rem;
   font-size: 1.2rem;
   outline: none;
@@ -77,10 +77,10 @@ export const Input = styled.input`
 export const TextArea = styled.textarea`
   height: 10rem;
   width: 100%;
-  background: ${({ theme }) => theme.inputBackground};
-  border: 1px solid ${({ theme }) => theme.border};
+  background: transparent;
+  border: 1px solid ${({ theme }) => theme.secondary};
   padding: 1.7rem 1.5rem;
-  color: ${({ theme }) => theme.primary};
+  color: ${({ theme }) => theme.secondary};
   border-radius: 0.5rem;
   font-size: 1.2rem;
   outline: none;

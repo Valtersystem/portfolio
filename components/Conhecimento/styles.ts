@@ -30,8 +30,8 @@ export const ConhecimentoContainer = styled.div`
     justify-content: center;
 
     p {
-        color: ${({ theme }) => theme.primary};
-        font-weight: 300;
+        color: ${({ theme }) => theme.secondary};
+        font-weight: 600;
         font-size: 1.3rem;
         text-transform: uppercase;
     }
@@ -40,7 +40,7 @@ export const ConhecimentoContainer = styled.div`
     svg{
         width: 6.5rem;
         height: 6.5rem;
-        color: ${({ theme }) => theme.secondary};
+        color: ${({ theme }) => theme.textHighlight};
         transition: 0.3s;
     }
 

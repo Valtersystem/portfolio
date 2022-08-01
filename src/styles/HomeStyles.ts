@@ -10,6 +10,6 @@ height: 100%;
 > main {
    display: flex;
    flex-direction: column;
-   gap: 8rem;
+   gap: 4rem;
 }
 `;

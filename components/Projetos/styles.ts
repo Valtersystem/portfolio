@@ -101,7 +101,7 @@ export const ProjetoContainer = styled.div<ProjetoProps>`
       position: absolute;
       width: 100%;
       height: 100%;
-      background: ${({ theme }) => theme.gradient};
+      background: ${({ theme }) => theme.gradientGray};
       opacity: 0.75;
       transition: 0.5s;
     }

@@ -128,7 +128,7 @@ span.blue {
 }
 
 span.comment {
-    color: ${({ theme }) => theme.text};
+    color: #ffffff;
     margin-bottom: 1rem;
     display: block;
 }

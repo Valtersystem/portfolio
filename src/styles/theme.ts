@@ -1,15 +1,20 @@
+import { backgrounds } from "polished";
+
 const theme = {
-  background: '#11172B',
+  background: '#0c0c0c',
   backgroundLight: '#1B2138',
-  primary: '#0EE7B7',
-  secondary: '#7AC7E3',
-  gradient: 'linear-gradient(225deg, #313860 0%, #11172B 100%);',
+  primary: '#840FC4',
+  secondary: '#ffffff',
+  gradient: 'linear-gradient(225deg,#850fc5 0%,#283150 100%);',
+  gradientGray: 'linear-gradient(225deg,#7c7c7c 0%,#df292900 100%);',
+  gradientBlack: 'linear-gradient(225deg,#121212 0%,#000000 100%)',
   text: '#848DA0',
   textHighlight: '#444B5B',
   textLight: '#C4C4C4',
   border: '#313958',
   inputBackground: '#1E253E',
-  error: '#d45d5d'
+  backgroundBiografia: '#9980800a',
+  error: '#d45d5d',
 };
 
 export default theme;

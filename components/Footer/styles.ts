@@ -21,6 +21,10 @@ justify-content: center;
         text-transform: uppercase;
         font-weight: 300;
         font-size: 1.2rem;
+
+        &:hover {
+                color: ${({ theme }) => theme.primary};
+            }
     }
 
     > section {

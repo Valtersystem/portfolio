@@ -5,6 +5,10 @@ interface ContainerProps {
 }
 
 export const Container = styled.div<ContainerProps>`
+
+  
+  
+
   > a {
     position: relative;
     width: 100%;
@@ -20,6 +24,10 @@ export const Container = styled.div<ContainerProps>`
     transition: 0.5s;
     cursor: pointer;
     overflow: hidden;
+
+    border-radius: 1rem;
+    
+    box-shadow: ${({ theme }) => theme.primary} 1.95px 1.95px 2.6px;
     
     &:hover {
       border-color: ${({ theme }) => theme.primary};
@@ -47,7 +55,7 @@ export const Container = styled.div<ContainerProps>`
       bottom: 0;
       width: 100%;
       height: 100%;
-      background: ${({ theme }) => theme.gradient};
+      /* background: ${({ theme }) => theme.gradient}; */
       opacity: 0.7;
       transition: 0.5s;
     }

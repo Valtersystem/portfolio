@@ -12,9 +12,9 @@ export function Biografia() {
      <section>
         <BiografiaItem
         description= {<span>
-         Prazer em te conhecer, meu nome é Valter Santos. ⁠Antes de me apaixonar por programação, trabalhei no hospital de oncologia da América Latina (Hospital de Amor) como desenvolvedor de bancos em REDCap e fotografia científica e sempre tive vontade de aprender a criar web-sites, com esta vontade, comecei a pesquisar e me aprofundar no mundo da tecnologia. E então decidi realizar minha graduação em análise e desenvolvimento de sistemas. No ano de 2022 tive a minha primeira oportunidade de trabalhar por 6 meses como desenvolvedor web Júnior, onde consegui experiência com algumas ferramentas: Vuejs, Git, Bootstrap, JavaScript e outras. ⁠ <br/> ⁠
-
-Falando um pouco mais sobre mim, gosto de jogar futebol, cozinhar e também de me divertir com amigos e familiares e às vezes assisto a algumas séries.
+         
+         Prazer em te conhecer, meu nome é Valter Santos. ⁠Antes de me apaixonar por programação computacional, trabalhei em um dos mais importante Hospital Oncológico do Brasil (Hospital de Amor Barretos, localizado na cidade de Barretos no Estado de São Paulo), como desenvolvedor de bancos de dados utilizando a Plataforma REDCap e fotógrafo científico. Como sempre tive quiz aprender a criar web-sites, comecei a pesquisar e me aprofundar no mundo da tecnologia e, então iniciei a graduação em Análise e Desenvolvimento de Sistemas tendo finalizado em XX/XX/XXXX. Em 2022 tive a primeira oportunidade de trabalhar como Desenvolvedor Web Junior por 6 meses, onde consegui experiência com algumas ferramentas, tais como: Vuejs, Git, Bootstrap, JavaScript e outras. ⁠ <br/> ⁠
+No âmbito pessoal, gosto de jogar futebol, cozinhar e também de me divertir com amigos e familiares e às vezes assisto a algumas séries.
 
          </span>}
         />

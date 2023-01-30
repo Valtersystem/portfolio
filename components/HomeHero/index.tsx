@@ -14,23 +14,23 @@ function HomeHero() {
         </TextContainer>
         <InfosContainer>
           <CodeItem data-aos='zoom-in'>
-            <span className='comment'>//Minha apresentação</span>
+            <span className='comment'>//My presentation</span>
             <span className='purple'>Infos</span> {'\u007B'}
             <div>
-              Idade: <span className='blue'>26 anos,</span>
+              Age: <span className='blue'>27 years,</span>
             </div>
             <div>
-            Nacionalidade: <span className='blue'>Brasil</span>
+            Nationality: <span className='blue'>Brazil</span>
             </div>
             {'\u007D'}
           </CodeItem>
           <CodeItem data-aos='zoom-in'>
             <span className='purple'>Others</span> {'\u007B'}
             <div>
-              Estudante: <span className='blue'>Dev Front-end Junior,</span>
+            Student: <span className='blue'>Web - Front-end,</span>
             </div>
             <div>
-               Foco: <span className='blue'>Front end engineering</span> 
+            Focus: <span className='blue'>Front end engineering</span> 
             </div>
             {'\u007D'}
           </CodeItem>

@@ -1,6 +1,6 @@
 {
   "_latest": "0.3.0",
-  "apiEndpoint": "https://valtersantosbackend.prismic.io/api/v2",
+  "apiEndpoint": "https://valtersantos-portfolio-backend.prismic.io/api/v2",
   "libraries": [
     "@/slices"
   ],

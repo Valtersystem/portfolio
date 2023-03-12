@@ -8,8 +8,7 @@ module.exports = {
   extends: [
     'plugin:react/recommended',
     'airbnb',
-    'airbnb-typescript',
-    'prettier'
+    'airbnb-typescript'
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
@@ -21,11 +20,10 @@ module.exports = {
     ecmaVersion: 12,
     sourceType: 'module'
   },
-  plugins: ['react', '@typescript-eslint', 'prettier'],
+  plugins: ['react', '@typescript-eslint'],
   rules: {
     'react/jsx-props-no-spreading': 'off',
     'react/react-in-jsx-scope': 'off',
-    'prettier/prettier': 'error',
     'space-before-function-paren': 'off',
     'react/prop-types': 'off',
     'jsx-a11y/anchor-ís-valid': 'off',

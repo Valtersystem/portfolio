@@ -11,24 +11,38 @@ export function Experiencias() {
 
   return (
     <Container>
-     <SectionTitle title='#Experiências' description='' />
+     <SectionTitle title='#EXPERIENCES' description='' />
 
      <section>
+     <ExperienciaItem 
+        year='Current Job'
+        title='Web developer'
+        description= {<span>My mission is to meet all the demands requested by the client, demands with implementation of new products, creation of new templates, layout updates, and newsletter creation.<br />
+        <>
+        -Creation of new pages and new templates. <br />
+        -Maintenance and bug fixing <br />
+        -New product submissions <br />
+        -Newsletter creation <br />
+        -Wordpress blog maintenance <br />
+        Technologies: <br />      
+        Php, Laravel, Html, Css, Javascript, Bootstrap, Jquery, Mysql(phpmyadmin) and Wordpress.
+        </>
+         </span>}
+        />
         <ExperienciaItem 
         year='2021'
-        title='Gestor web'
-        description='Fiquei responsável pelo site de eventos do hospital onde eu inseria conteúdos de novos eventos, relatava bugs no site em geral, dava suporte aos clientes, como troca de e-mail, gestão de pagamentos e também participava de reuniões para futuras atualizações do site.'
+        title='Web management'
+        description="I was responsible for the hospital's events website where I inserted new event content, reported bugs in the website in general, provided customer support such as email exchange, payment management, and also participated in meetings for future website updates."
         />
         <ExperienciaItem
         year='2022'
         title='Dev Front-end Junior'
-        description= {<span>Com essa experiência aprendi a trabalhar com Vuejs, Bootstrap, CSS, HTML, PHP, FIGMA e GIT <br />
+        description= {<span>With this experience I learned to work with Vuejs, Bootstrap, CSS, HTML, PHP, FIGMA and GIT <br />
         <>
-        -Criei do zero várias landing pages e emails marketing, para o lançamento de produtos de agropecuári<br />
-        -Adicionei formulário de contatos em um web-site que já estava em produção.<br />
-        -Criei páginas em wordpress para um blog empresarial.<br />
-        -Auxiliei na troca de tecnologia de um e-commerce que estava em knockout js para VueJs.<br />
-        -Criei template simples em Bootstrap.<br />
+        -I have created several landing pages and email marketing from scratch.<br />
+        -I added a contact form to a web-site that was already in production.<br />
+        -I assisted in the technology switch from knockout js to VueJs for an e-commerce website.<br />
+        -Created simple template in Bootstrap and VueJS<br />
         </>
          </span>}
         />

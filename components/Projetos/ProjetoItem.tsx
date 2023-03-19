@@ -21,7 +21,7 @@ export default function ProjeItem({title, type, slug, img}: ProjetoProps){
             </section>
             <button>
                 <Link href={`/projetos/${slug}`}>
-                Ver mais <AiOutlineRightCircle />
+               More <AiOutlineRightCircle />
                 </Link>
             </button>
         </ProjetoContainer>

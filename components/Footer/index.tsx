@@ -24,7 +24,7 @@ function Footer(){
   return (
     <Container>
      <div className="container">
-      <button type='button' onClick={hendleScrollTop}>Voltar ao topo</button>
+      <button type='button' onClick={hendleScrollTop}>Back to top</button>
       <section>
         {/* <AiOutlineTwitter onClick={() => handleRedirect("https://twitter.com")}/> */}
         <AiOutlineGithub onClick={() => handleRedirect("https://github.com/Valtersystem")}/>

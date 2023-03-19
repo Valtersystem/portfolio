@@ -30,7 +30,7 @@ export default function Projeto({ projeto }: ProjetoProps) {
   return (
     <ProjetoContainer>
       <Head>
-        <title>{projeto.title} | Meu portfólio</title>
+        <title>{projeto.title} | My Portfolio</title>
         <meta name="description" content={projeto.description} />
         <meta property="og:image" content={projeto.thumbnail} />
         <meta property="og:image:secure_url" content={projeto.thumbnail} />
@@ -49,7 +49,7 @@ export default function Projeto({ projeto }: ProjetoProps) {
       <main>
         <p>{projeto.description}</p>
         <button type="button">
-          <a href={projeto.link}>Ver projeto online</a>
+          <a href={projeto.link}>View project online</a>
         </button>
       </main>
     </ProjetoContainer>

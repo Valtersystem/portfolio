@@ -22,6 +22,9 @@ function HomeHero() {
             <div>
             Nationality: <span className='blue'>Brazil</span>
             </div>
+            <div>
+            Live: <span className='blue'>Portugal</span>
+            </div>
             {'\u007D'}
           </CodeItem>
           <CodeItem data-aos='zoom-in'>

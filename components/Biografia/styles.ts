@@ -8,7 +8,7 @@ export const Container = styled.section`
     display: flex;
     gap: 1.5rem;
 
-    padding-bottom: 10rem;
+    padding-bottom: 3rem;
     border-bottom: 3px solid ${({ theme }) => theme.primary};
 
     @media (max-width: 1000px) {
@@ -28,7 +28,7 @@ export const ItemContainer = styled.div`
     /* background: ${({ theme }) => theme.gradient}; */
     padding: 1rem;
     padding-top: 2.5rem;
-    height: 20rem;
+    height: 13rem;
     display: flex;
     flex-direction: column;
     align-items: flex-start;

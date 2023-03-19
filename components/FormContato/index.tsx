@@ -9,17 +9,15 @@ export function FormContato() {
     <SectionTitle 
     title={
       <>
-      Vamos 
-      <br />
-      conversar ?
+      Let's Talk ?
       </>
     } 
 
     description={
       <>
-      Preenche o formulário que
+      Fill out the form that
       <br />
-      irei retornar em breve
+      will get back to you soon.
       </>
     } />
 

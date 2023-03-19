@@ -17,13 +17,13 @@ export function Conhecimento() {
     <Container>
       <SectionTitle title="#skills" />
       <section>
-        <ConhecimentoItem title='HTML' icon={<AiFillHtml5 />} nivel="2 ano" />
-        <ConhecimentoItem title='CSS' icon={<FaCss3Alt />} nivel="2 ano" />
-        <ConhecimentoItem title='JAVASCRIPT' icon={<IoLogoJavascript />} nivel=" 1 ano" />
-        <ConhecimentoItem title='REACT' icon={<FaReact/>} nivel="2 Meses" />
-        <ConhecimentoItem title='Sass' icon={<FaSass/>} nivel="2 Meses" />
-        <ConhecimentoItem title='Vuejs' icon={<FaVuejs/>} nivel="6 Meses" />
-        <ConhecimentoItem title='Vuejs' icon={<FaLaravel/>} nivel="3 Meses" />
+        <ConhecimentoItem title='HTML' icon={<AiFillHtml5 />} nivel="2 Year" />
+        <ConhecimentoItem title='CSS' icon={<FaCss3Alt />} nivel="2 Year" />
+        <ConhecimentoItem title='JAVASCRIPT' icon={<IoLogoJavascript />} nivel=" 1 Year" />
+        <ConhecimentoItem title='REACT' icon={<FaReact/>} nivel="2 Months" />
+        <ConhecimentoItem title='Sass' icon={<FaSass/>} nivel="2 Months" />
+        <ConhecimentoItem title='Vuejs' icon={<FaVuejs/>} nivel="6 Months" />
+        <ConhecimentoItem title='Vuejs' icon={<FaLaravel/>} nivel="3 Months" />
         {/* <ConhecimentoItem title='Strapi' icon={<SiStrapi/>} nivel="3 Meses" />
         <ConhecimentoItem title='NextJS' icon={<SiNextdotjs/>} nivel="1 Meses" /> */}
       </section>

@@ -64,12 +64,11 @@ export const Input = styled.input`
     color: ${({ theme }) => theme.primary};
   }
 
+ 
   @media(max-width: 450px) {
     padding: 1.4rem;
     font-size: 1rem;
   }
-
-
 
 `;
 

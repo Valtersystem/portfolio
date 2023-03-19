@@ -27,5 +27,9 @@ module.exports = {
     'space-before-function-paren': 'off',
     'react/prop-types': 'off',
     'jsx-a11y/anchor-ís-valid': 'off',
-  }
+    "object-curly-spacing": "off",
+    "@typescript-eslint/object-curly-spacing": "error",
+    "react/no-unescaped-entities": "off",
+    "@next/next/no-page-custom-font": "off"
+  },
 };

@@ -8,7 +8,8 @@ module.exports = {
   extends: [
     'plugin:react/recommended',
     'airbnb',
-    'airbnb-typescript'
+    'airbnb-typescript',
+    'prettier'
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
@@ -20,16 +21,15 @@ module.exports = {
     ecmaVersion: 12,
     sourceType: 'module'
   },
-  plugins: ['react', '@typescript-eslint'],
+  plugins: ['react', '@typescript-eslint', 'prettier'],
   rules: {
     'react/jsx-props-no-spreading': 'off',
     'react/react-in-jsx-scope': 'off',
+    'prettier/prettier': 'error',
     'space-before-function-paren': 'off',
     'react/prop-types': 'off',
-    'jsx-a11y/anchor-ís-valid': 'off',
-    "object-curly-spacing": "off",
-    "@typescript-eslint/object-curly-spacing": "error",
-    "react/no-unescaped-entities": "off",
-    "@next/next/no-page-custom-font": "off"
-  },
+    'import/prefer-default-export': 'off',
+    'react/require-default-props': 'off',
+    'jsx-a11y/anchor-is-valid': 'off'
+  }
 };

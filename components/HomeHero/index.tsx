@@ -17,7 +17,7 @@ function HomeHero() {
             <span className='comment'>//My presentation</span>
             <span className='purple'>Infos</span> {'\u007B'}
             <div>
-              Age: <span className='blue'>27 years,</span>
+              Age: <span className='blue'>28 years,</span>
             </div>
             <div>
             Nationality: <span className='blue'>Brazil</span>

@@ -8,7 +8,6 @@ import { Container } from './styles';
      <ul>
       <NavLink title='Home' path='/' />
       <NavLink title='Projects' path='/projetos' includes />
-      <NavLink title='Blog' path='https://blog-dev-system.up.railway.app/'/>
      </ul>
     </Container>
   );
